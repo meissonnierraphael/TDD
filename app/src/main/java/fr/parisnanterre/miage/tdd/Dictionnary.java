@@ -5,7 +5,7 @@ public class Dictionnary {
     private String name;
 
     public Dictionnary(){
-        this.name="Example";
+        this.name="against";
     }
 
     public String getName(){
@@ -15,5 +15,12 @@ public class Dictionnary {
     public void setName(String parName){
         this.name=parName;
     }
+
+    public String getTranslation(String s1){
+        return this.name;
+    }
+
+    public void addTranslation(String s1, String s2){}
+
 
 }

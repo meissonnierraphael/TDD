@@ -12,3 +12,7 @@ La duplication qui existe est la répétition de la variable 'dict'.
 ###FakeIt - Question 6
 
 La notion de refactoring consiste à ameliorer la qualité du code sans modifier son fonctionnement. Ainsi les bugs sont plus facile à identifier.
+
+###Triangulation - Question 2
+
+Oui il est possible de faire un test qui n'implique l'ajout que d'une seule des 2 méthodes.

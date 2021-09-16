@@ -7,3 +7,7 @@
 [X] 4- Tache avec l'ajout d'un autre test pour la traduction
 
 [X] 5- Tache avec les Fixtures
+
+[ ] 6- Tache avec les Traductions Multiples
+
+[X] 7- Tache avec les Traductions inversées

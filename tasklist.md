@@ -2,4 +2,6 @@
 
 [X] 2- Tache avec le isEmpty() 
 
-[ ] 3- Tache avec la Triangulation.1
+[X] 3- Tache avec la Triangulation.1
+
+[X] 4- Tache avec l'ajout d'un autre test pour la traduction

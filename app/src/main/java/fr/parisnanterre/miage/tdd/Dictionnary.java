@@ -4,8 +4,8 @@ public class Dictionnary {
 
     private String name;
 
-    public Dictionnary(){
-        this.name="against";
+    public Dictionnary(String mot){
+        this.name=mot;
     }
 
     public String getName(){

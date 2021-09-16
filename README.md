@@ -1,3 +1,3 @@
 # TDD
 
-Adresse du repot git: https://github.com/meissonnierraphael/TDD.git
+Adresse du repo git: https://github.com/meissonnierraphael/TDD.git

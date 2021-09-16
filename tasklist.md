@@ -11,3 +11,7 @@
 [ ] 6- Tache avec les Traductions Multiples
 
 [X] 7- Tache avec les Traductions inversées
+
+[ ] 8- Tache avec le chargement du fichier
+
+[X] 9- Tache avec les tests suites de JUnit

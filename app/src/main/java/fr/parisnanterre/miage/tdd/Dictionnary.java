@@ -36,6 +36,11 @@ public class Dictionnary {
         return translations.get(s1);
     }
 
+    public List getTranslation2(String s1){
+
+        return multipleTranslations.get(s1);
+    }
+
     public void addTranslation(String s1, String s2){
 
         translations.put(s1,s2);

@@ -1,5 +1,6 @@
 package fr.parisnanterre.miage.tdd;
 
+import org.hamcrest.Matchers;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -12,10 +13,11 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
 
-public class DictionnaryTest {
+public class DictionaryTest {
 
     private Dictionnary dict;
     private List<String> liste;
+    private List<String> liste2;
 
     @Before
     public void Initialize(){
@@ -23,6 +25,9 @@ public class DictionnaryTest {
         this.liste=new ArrayList<>();
         this.liste.add("against");
         this.liste.add("versus");
+        this.liste2=new ArrayList<>();
+        this.liste2.add("versus");
+        this.liste2.add("against");
 
     }
 
@@ -46,7 +51,7 @@ public class DictionnaryTest {
 
     /*@Test public void testMultipleTranslation(){
         dict.addMultipleTranslation("contre",liste);
-        assertThat(dict.getTranslation("contre"),equalTo(containsInAnyOrder(liste)));
+        assertThat(dict.getTranslation2("contre"),Matchers.containsInAnyOrder(liste2.toArray()));
     }*/
 
     @Test public void testInverseTranslation(){

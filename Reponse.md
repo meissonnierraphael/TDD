@@ -15,4 +15,4 @@ La notion de refactoring consiste à ameliorer la qualité du code sans modifier
 
 ###Triangulation - Question 2
 
-Oui il est possible de faire un test qui n'implique l'ajout que d'une seule des 2 méthodes.
+Non il n'est pas possible de faire un test qui n'implique l'ajout que d'une seule des 2 méthodes car une des methodes depend de l'autre.

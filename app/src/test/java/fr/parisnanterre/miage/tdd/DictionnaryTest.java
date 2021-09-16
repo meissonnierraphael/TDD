@@ -1,7 +1,19 @@
 package fr.parisnanterre.miage.tdd;
 
 import org.junit.Test;
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.MatcherAssert.assertThat;
+
 
 public class DictionnaryTest {
 
+    private Dictionnary dict;
+
+    public DictionnaryTest(){
+        this.dict= new Dictionnary();
+    }
+
+    @Test public void testDictionnaryName(){
+        assertThat(dict.getName(),equalTo("Example"));
+    }
 }

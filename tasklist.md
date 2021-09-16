@@ -1,2 +1,3 @@
-[X] 1- tache avec le getName()
-[ ] 2- tache avec le isEmpty() 
+[X] 1- Tache avec le getName()
+
+[X] 2- Tache avec le isEmpty() 

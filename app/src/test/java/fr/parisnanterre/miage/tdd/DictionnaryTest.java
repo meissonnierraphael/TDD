@@ -17,8 +17,13 @@ public class DictionnaryTest {
         assertThat(dict.getName(),equalTo("against"));
     }
 
+    @Test public void testDictionnaryIsEmpty(){
+        assertThat(dict.isEmpty(),equalTo(false));
+    }
+
     @Test public void testOneTranslation(){
         dict.addTranslation("contre","against");
         assertThat(dict.getTranslation("contre"),equalTo("against"));
+        assertThat(dict.getTranslation("contre"),equalTo("never"));
     }
 }

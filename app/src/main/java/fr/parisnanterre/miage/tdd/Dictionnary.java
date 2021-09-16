@@ -16,6 +16,10 @@ public class Dictionnary {
         this.name=parName;
     }
 
+    public boolean isEmpty(){
+        return true;
+    }
+
     public String getTranslation(String s1){
         return this.name;
     }

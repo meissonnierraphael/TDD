@@ -1,12 +1,13 @@
 package fr.parisnanterre.miage.tdd;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Dictionnary {
 
     private String name;
-    private Map<String,String> translations;
+    private Map<String, List<String>> translations;
 
     public Dictionnary(String mot){
         this.name=mot;
@@ -36,7 +37,12 @@ public class Dictionnary {
     }
 
     public void addTranslation(String s1, String s2){
-        translations.put(s1, s2);
+
+        translations.put(s1,s2);
+    }
+
+    public void addMultipleTranslation(String s1,List<String> s2){
+        translations.put(s1,s2);
     }
 
 

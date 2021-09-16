@@ -14,6 +14,7 @@ public class DictionnaryTest {
     @Before
     public void Initialize(){
         this.dict= new Dictionnary("contre");
+        
     }
 
     @Test public void testDictionnaryName(){
@@ -32,6 +33,15 @@ public class DictionnaryTest {
     @Test public void testAnotherTranslation(){
         dict.addTranslation("marcher","run");
         assertThat(dict.getTranslation("marcher"),equalTo("run"));
+    }
+
+    @Test public void testMultipleTranslation(){
+        dict.addMultipleTranslation("contre",");
+        assertThat(dict.getTranslation("lire"),equalTo("read"));
+    }
+
+    @After public void cleanUp(){
+        dict=null;
     }
 
 }

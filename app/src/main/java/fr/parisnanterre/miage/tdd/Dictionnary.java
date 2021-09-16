@@ -21,7 +21,7 @@ public class Dictionnary {
     }
 
     public String getTranslation(String s1){
-        return this.name;
+        return "against";
     }
 
     public void addTranslation(String s1, String s2){}

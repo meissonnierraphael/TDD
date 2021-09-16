@@ -12,16 +12,16 @@ public class DictionnaryTest {
     private Dictionnary dict;
 
     @Before
-    public void Initilize(){
-        this.dict= new Dictionnary("Example");
+    public void Initialize(){
+        this.dict= new Dictionnary("contre");
     }
 
     @Test public void testDictionnaryName(){
-        assertThat(dict.getName(),equalTo("against"));
+        assertThat(dict.getName(),equalTo("contre"));
     }
 
     @Test public void testDictionnaryIsEmpty(){
-        assertThat(dict.isEmpty(),equalTo(false));
+        assertThat(dict.isEmpty(),equalTo(true));
     }
 
     @Test public void testOneTranslation(){

@@ -2,7 +2,7 @@ package fr.parisnanterre.miage.tdd;
 
 import java.util.*;
 
-public class Dictionnary {
+public class Dictionnary implements IDictionary{
 
     private String name;
     private Map<String, String> translations;

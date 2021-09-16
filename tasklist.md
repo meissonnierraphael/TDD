@@ -15,3 +15,5 @@
 [ ] 8- Tache avec le chargement du fichier
 
 [X] 9- Tache avec les tests suites de JUnit
+
+[ ] 10- Tache avec le Free wheeling
